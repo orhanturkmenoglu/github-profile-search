@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="tr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Github Profile Search</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <!-- Arama alanı -->
+      <div class="search-container">
+        <div class="search-box">
+          <input
+            type="text"
+            id="search"
+            placeholder="Search Github Username..."
+            class="search"
+          />
+        </div>
+      </div>
+
+      <!-- Profil kısmı -->
+      <div class="profile-container">
+        <div class="profile">
+          <span class="avatar-wrapper">
+            <img src="" alt="" class="avatar" />
+          </span>
+          <div class="user-info">
+            <h1 class="name">ORHAN TÜRKMENOĞLU</h1>
+            <h2 class="username">Username</h2>
+            <h3 class="bio">Bio</h3>
+            <div class="profile-details">
+              <span class="followers">Followers: 0</span>
+              <span class="following">Following: 0</span>
+              <span class="repository">Repository: 0</span>
+            </div>
+          </div>
+
+          <!-- Repository listesi -->
+          <div class="repository-list"></div>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
