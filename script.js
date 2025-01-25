@@ -50,6 +50,7 @@ searchInput.addEventListener("keydown", function (event) {
   if (event.key === "Enter") {
     const username = searchInput.value.trim();
     if (username) {
+      searchInput.value = ""; // Clear the input field
       getProfileDetails(username);
     } else {
       showMessage("Please enter a valid username");
